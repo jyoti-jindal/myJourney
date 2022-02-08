@@ -10,6 +10,7 @@ public class Car extends FordVehicle {
 
         // Call the honk() method (from the FordVehicle class) on the myCar object
         myCar.honk();
+        System.out.println(myCar.hasWheels);
 
         // Display the value of the brand attribute (from the FordVehicle class) and the value of the modelName from the Car class
         System.out.println(myCar.brand + " " + myCar.modelName);
