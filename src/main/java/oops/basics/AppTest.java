@@ -1,6 +1,4 @@
-package oops.basics;
-
-import oops.basics.encapsulation.Student;
+package oops.basics.encapsulation;
 
 public class AppTest {
     public static void main(String[] args) {
