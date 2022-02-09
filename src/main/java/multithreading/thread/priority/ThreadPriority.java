@@ -15,5 +15,7 @@ public class ThreadPriority implements Runnable{
         System.out.println("Priority of thread " + thread.getName() + " is: " + thread.getPriority());
         thread.start();
         System.out.println(mainThread.getName() + " is executing....");
+
+        mainThread.setPriority(11); //  will throw IllegalArgumentException
     }
 }
