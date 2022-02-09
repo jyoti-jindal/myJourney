@@ -2,7 +2,7 @@ package oops.basics.encapsulation;
 
 public class Student {
     private String name;
-    private int rollNumber;
+    private Integer rollNumber;
     private String phoneNumber;
 
     public Student(String name, int rollNumber, String phoneNumber) {

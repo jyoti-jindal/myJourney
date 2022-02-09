@@ -1,6 +1,6 @@
 package oops.basics.inheritance.byinterface;
 
 public interface IVehicle {
-    boolean hasWheels = false;
+    boolean hasWheels = true;
     void honk();
 }
