@@ -32,7 +32,10 @@ class JoinMethod2 implements Runnable {
         for (int i = 0; i <= 5; i++) {
             System.out.println(Thread.currentThread().getName() + " Thread is running....");
         }
-        if (threadToInterrupt != null) threadToInterrupt.interrupt(); //main thread is interrupted.
+        if (threadToInterrupt != null) {
+            System.out.println(threadToInterrupt.getName() + " is in " + threadToInterrupt.getState() + " state");
+            threadToInterrupt.interrupt();
+        } //main thread is interrupted.
     }
 
     public static void main(String[] args) throws InterruptedException {

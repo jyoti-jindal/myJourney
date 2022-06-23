@@ -1,4 +1,4 @@
-package multithreading.thread.priority;
+package multithreading.thread.methods;
 
 public class ThreadPriority implements Runnable{
     public void run() {

@@ -3,13 +3,17 @@ package oops.basics;
 public class Constructors {
     int x = 9;
     final int y;
-    public Constructors() {
-        this.x = 5;
-        this.y = 10;
-    }
+//    {
+//        y = 18;
+//    }
+public Constructors() {
+    this.x = 5;
+    this.y = 10;
+}
+
     public Constructors(int y) {
         this.x = y;
-        this.y = 10;
+        this.y = y;
     }
 
     public static void main(String[] args) {

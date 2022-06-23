@@ -2,11 +2,13 @@ package datastructures.backtracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayWithOneZero {
     public static void main(String[] args) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
+        Iterator iterator = result.iterator();
         int n = 4;
         genArray(0, new int[n], n, result);
         for (int i = 0; i < result.size(); i++) {
